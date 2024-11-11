@@ -53,8 +53,7 @@ export default function SearchBox({updateInfo}) {
     <div className="SearchBox">
       <form onSubmit={handleSubmit}>
         <TextField id="City" label="City Name" variant="outlined" required value={city} onChange={handleChange}/>
-        <br />
-        <br />
+        <br /><br />
         <Button variant="contained" type="submit">
           Search
         </Button>
